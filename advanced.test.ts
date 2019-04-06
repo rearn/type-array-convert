@@ -1,16 +1,16 @@
 import * as tac from './index';
 
-const u32array: Uint32Array = new Uint32Array(64);
-const u16array: Uint16Array = new Uint16Array(64);
-const u8array: Uint8Array = new Uint8Array(64);
+let u32array: Uint32Array = new Uint32Array(64);
+let u16array: Uint16Array = new Uint16Array(64);
+let u8array: Uint8Array = new Uint8Array(64);
 
-u32array.map((): number => {
+u32array = u32array.map((): number => {
   return Math.floor(Math.random() * 0x100000000);
 });
-u16array.map((): number => {
+u16array = u16array.map((): number => {
   return Math.floor(Math.random() * 0x10000);
 });
-u8array.map((): number => {
+u8array = u8array.map((): number => {
   return Math.floor(Math.random() * 0x100);
 });
 
