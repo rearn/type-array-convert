@@ -46,7 +46,7 @@ export const uint8toUint32ZeroPadding = (data: Uint8Array): Uint32Array => {
   const mod: number = data.length % 4;
   if (mod !== 0) {
     const data2: Uint8Array = new Uint8Array(data.length - mod + 4);
-    data2.set(data, 4 - mod);    
+    data2.set(data, 4 - mod);
     return uint8toUint32Nocheck(data2);
   }
 
