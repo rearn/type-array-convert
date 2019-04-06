@@ -19,6 +19,13 @@
     "url": "https://github.com/rearn/type-array-convert/issues"
   },
   "homepage": "https://github.com/rearn/type-array-convert#readme",
+  "keywords": [
+    "TypeArray",
+    "Uint8Array",
+    "Uint16Array",
+    "Uint32Array",
+    "typescript"
+],
   "devDependencies": {
     "@types/jest": "^24.0.11",
     "jest": "^24.7.1",
