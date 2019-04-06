@@ -1,0 +1,48 @@
+{
+  "name": "type-array-convert",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "tslint 'index.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rearn/type-array-convert.git"
+  },
+  "author": "minamibashi rearn <minamibashi@rearn.info>  (https://github.com/rearn)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rearn/type-array-convert/issues"
+  },
+  "homepage": "https://github.com/rearn/type-array-convert#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.15.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.4.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "tsconfig.json"
+      }
+    },
+    "testMatch": [
+      "**/*.test.ts"
+    ]
+  }
+}
+
